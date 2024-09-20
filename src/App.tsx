@@ -11,8 +11,11 @@ function App() {
       {/* desktop view */}
       <div className="w-full h-full hidden md:flex justify-center items-center bg-gradient-to-br from-primary to-secondary text-white">
         <div className="w-1/2 xl:w-1/3 h-full flex justify-center items-center">
-          <img src="/logo.svg" className="w-20 h-20" />
-          <h1 className="text-5xl font-semibold font-mono">YCalculator</h1>
+          <img src="/logo.svg" className="w-28 h-28" />
+          <div className=''>
+            <h1 className="text-5xl font-semibold font-mono">Evalus</h1>
+            <span className='pl-1 text-lg'>Your ultimate math companion</span>
+          </div>
         </div>
         <div className="w-1/2 xl:w-2/3 flex items-center justify-center min-h-screen">
           {/* iPhone Container */}
@@ -48,4 +51,6 @@ function App() {
 }
 
 export default App;
+
+
 

@@ -29,7 +29,7 @@ const MobileView = ({
       <div className="w-full h-2/5 px-1 py-2 flex flex-col text-right text-primary font-semibold items-end justify-between space-y-1">
         <div className="w-full pt-2 flex justify-center items-center">
           <img src="/logo.svg" className="w-10 h-10 md:w-6 md:h-6" />
-          <p className="font-mono text-3xl md:text-base">YCalculator</p>
+          <p className="font-mono text-3xl md:text-base">Evalus</p>
         </div>
 
         <div>
