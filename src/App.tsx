@@ -7,7 +7,7 @@ function App() {
     useCalculator();
 
   return (
-    <div className="w-full h-screen ">
+    <div className="w-full h-dvh">
       {/* desktop view */}
       <div className="w-full h-full hidden md:flex justify-center items-center bg-gradient-to-br from-primary to-secondary text-white">
         <div className="w-1/2 xl:w-1/3 h-full flex justify-center items-center">
@@ -17,7 +17,7 @@ function App() {
             <span className='pl-1 text-lg'>Your ultimate math companion</span>
           </div>
         </div>
-        <div className="w-1/2 xl:w-2/3 flex items-center justify-center min-h-screen">
+        <div className="w-1/2 xl:w-2/3 flex items-center justify-center">
           {/* iPhone Container */}
           <div className="relative w-[200px] h-[440px] sm:w-[260px] sm:h-[570px] rounded-[30px] sm:rounded-[40px] bg-black shadow-2xl">
             {/* Notch */}
